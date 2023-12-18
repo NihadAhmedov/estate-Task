@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+
+header {
+  width: 100%;
+}
+header .collapse {
+  gap: 20px;
+}
+header .collapse ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: black !important;
+}
+header .collapse .redColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+header .collapse .redColor p {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#BackPhoto {
+  background-image: url("../../../assets/image/home_slider_bcg.jpg");
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+#BackPhoto .findyourhomePage #find {
+  color: white;
+  font-size: 55px;
+  font-weight: 750;
+}
+
+@media (max-width: 500px) {
+  #BackPhoto .findyourhomePage #find {
+    font-size: 25px;
+  }
+}
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.featured .line {
+  width: 2%;
+  height: 4px;
+  background-color: red;
+  rotate: 90deg;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.HouseCalifornia {
+  display: flex;
+  flex-direction: column;
+}
+.HouseCalifornia .realite {
+  position: relative;
+}
+.HouseCalifornia .realite .houseImage img {
+  width: 100%;
+}
+.HouseCalifornia .houseYazi {
+  margin-top: 10px;
+}
+.HouseCalifornia .featured {
+  position: absolute;
+  top: 0;
+  margin-top: 25px;
+  display: flex;
+  color: white;
+  background-color: red;
+  padding: 5px;
+}
+.HouseCalifornia .homeUmumi {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.HouseCalifornia .homeUmumi .bedroom .icons {
+  display: flex;
+  gap: 25px;
+}
+.HouseCalifornia .fiveButton {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.HouseCalifornia .fiveButton button {
+  padding: 5px;
+  border: 0;
+  background-color: rgb(204, 136, 9);
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.colSon {
+  background-color: blue;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.colSon .oneIcon {
+  display: flex;
+  margin-left: 15px;
+  padding: 10px;
+  gap: 20px;
+}
+.colSon .oneIcon i {
+  display: flex;
+  align-items: center;
+}
+.colSon .oneIcon .numbers {
+  color: white;
+}
+
+#personBackImage {
+  background-image: url("../../../assets/image/testimonials_background.jpg");
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#personBackImage .featuredUmummi {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+#personBackImage .featuredUmummi .loremFoot {
+  width: 60%;
+}
+#personBackImage .featuredUmummi .personimg {
+  display: flex;
+  flex-direction: column;
+}
+#personBackImage .featuredUmummi .personimg img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#personBackImage .featuredUmummi .personimg h6 {
+  color: rgb(198, 132, 9);
+  font-size: 22px;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.cities img {
+  width: 90%;
+  height: auto;
+}
+.cities button {
+  padding: 7px;
+  border: 0;
+  background-color: rgb(233, 153, 4);
+  color: white;
+  width: 120px;
+  position: absolute;
+  bottom: 25px;
+}
+
+@media (max-width: 991px) {
+  .cityPhotoSix .cities {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+footer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 8, 141);
+  color: white;
+  height: 60px;
+}
+footer .FootEnd {
+  margin-top: 12px;
+}
